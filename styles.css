@@ -445,6 +445,24 @@ footer {
   }
 }
 
+@media (max-width: 1180px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card.featured {
+    grid-column: auto;
+    display: block;
+  }
+
+  .featured .project-media {
+    min-height: 0;
+    aspect-ratio: 16 / 10;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+}
+
 @media (max-width: 560px) {
   .site-header {
     padding: 14px 18px;
