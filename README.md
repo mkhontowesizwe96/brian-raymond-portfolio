@@ -1,6 +1,5 @@
 # Brian Raymond Portfolio
 
-# Brian Raymond Portfolio
 
 A modern personal portfolio website created to showcase my background, technical skills, and software development projects as I transition into tech roles.
 
